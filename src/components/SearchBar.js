@@ -3,11 +3,6 @@ import React from 'react'
 class SearchBar extends React.Component {
     
     state = { term : ''};
-    
-    // onInputClick(){
-    //     console.log("input was clicked")
-    // }
-
 
     onFormSubmit = (event) =>{
         event.preventDefault();
